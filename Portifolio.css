@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    /*
+    font-family: "Fjalla One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    */
+
+    /*
+    font-family: "Secular One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    */
+
+    font-family: "Viga", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+NavBrandSpace a{
+    margin-left: 4vw;
+}
+
+.NavItensSpace {
+    margin-right: 4vw;
+}
+
+.NavItensSpace a{
+
+    margin: 0vw 1.6vw;
+}
+
+.navbar-brand:hover {
+    color: purple;
+}
+
+.nav-link, .navbar-brand {
+    color: gray;
+}
+
+.nav-link:hover{
+    color: purple;
+    border-bottom: 3px solid purple;
+    transition: 0.2s;
+}
